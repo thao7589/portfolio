@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css">
     <title>Portfolio</title>
 </head>
-<body>
+<body id="bg-img">
     <header>
         <div class="menu-btn">
             <div class="btn-line"></div>
@@ -17,19 +17,21 @@
         </div>
         <div class="menu">
             <div class="menu-branding">
-                <div class="potrait"></div>
+                <div class="portrait"></div>
             </div>
             <ul class="menu-nav">
-                <a href="/home.html" class="nav-item">HOME</a>
-            </ul>
-            <ul class="menu-nav">
-                <a href="/about.html" class="nav-item">ABOUT ME</a>
-            </ul>
-            <ul class="menu-nav">
-                <a href="/work.html" class="nav-item">MY WORK</a>
-            </ul>
-            <ul class="menu-nav">
-                <a href="/contact.html" class="nav-item">HOW TO REACH ME</a>
+                <li class="nav-item current">
+                    <a href="/home.html" class="nav-link">HOME</a>
+                </li>
+                <li class="nav-item">
+                    <a href="/about.html" class="nav-link">ABOUT ME</a>
+                </li>
+                <li class="nav-item">
+                    <a href="/work.html" class="nav-link">MY WORK</a>
+                </li>
+                <li class="nav-item">
+                    <a href="/contact.html" class="nav-link">HOW TO REACH ME</a>
+                </li>
             </ul>
         </div>
     </header>
@@ -56,6 +58,6 @@
         </div>
     </main>
 
-    <script src="/js/main.js"></script>
+    <script src="/dist/js/main.js"></script>
 </body>
 </html>
